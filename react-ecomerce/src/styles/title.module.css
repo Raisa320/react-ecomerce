@@ -1,0 +1,18 @@
+.title {
+  color: var(--title-color);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-color: #1a1c23;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #FFF;
+  }
+}

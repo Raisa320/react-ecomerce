@@ -1,0 +1,23 @@
+.box {
+  height: 41rem;
+  width: 56rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var( --box-bg );
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%),
+    0 10px 10px -5px rgb(0 0 0 / 4%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --box-bg:#ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --box-bg:#1a1c23;
+  }
+}

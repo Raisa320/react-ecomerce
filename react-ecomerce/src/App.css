@@ -1,0 +1,27 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var( --body-bg );
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-bg:#ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #121317;
+  }
+}
