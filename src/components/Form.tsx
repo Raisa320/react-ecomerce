@@ -12,10 +12,13 @@ interface dataProps {
 }
 
 const Form = ({ children, data }: boxProps) => {
-  const handleSendData = () => {
-    
-  }
-  return <form className={styles.form} onSubmit={handleSendData} >{children}</form>;
+  //Envío de data
+  const handleSendData = () => {};
+  return (
+    <form className={styles.form} onSubmit={handleSendData}>
+      {children}
+    </form>
+  );
 };
 
 export default Form;

@@ -1,0 +1,10 @@
+.mainContainer {
+  height: 50px;
+  background-color: rgb(25, 28, 35);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+

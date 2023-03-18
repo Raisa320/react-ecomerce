@@ -1,0 +1,24 @@
+.buttonProfile {
+  all: unset;
+  cursor: pointer;
+  padding: 0;
+  height: fit-content;
+}
+
+.imageButtonProfile,
+.buttonProfile {
+  border-radius: 50%;
+}
+
+.buttonProfile {
+  display: flex;
+  align-items: center;
+}
+
+.imageButtonProfile {
+  width: 25px;
+}
+
+.buttonProfile:focus {
+  outline: none;
+}

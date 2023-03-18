@@ -1,0 +1,13 @@
+.notificationIcon {
+  all: unset;
+  cursor: pointer;
+  padding: 0;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0);
+  width: 15px;
+  height: 15px;
+}
+
+.notificationIcon:focus {
+  outline: none;
+}
