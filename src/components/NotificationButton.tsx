@@ -7,11 +7,11 @@ const NotificationButton = () => {
       <svg
         stroke="currentColor"
         fill="currentColor"
-        stroke-width="0"
+        strokeWidth="0"
         viewBox="0 0 512 512"
         aria-hidden="true"
-        height="1em"
-        width="1em"
+        height="1.5em"
+        width="1.5em"
         xmlns="http://www.w3.org/2000/svg"
         color="#42d9a2fe"
       >

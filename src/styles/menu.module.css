@@ -1,0 +1,62 @@
+.mainContainer {
+  width: 25%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(25, 28, 35);
+  box-shadow: 4px 0px 4px -3px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 4px 0px 4px -3px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 4px 0px 4px -3px rgba(0, 0, 0, 0.44);
+}
+
+.menu{
+  width: auto;
+  position: relative;
+  padding: 0 50px 0 25px;
+  background-color: rgb(25, 28, 35);
+}
+
+.menuClose{
+  width: auto;
+  height: 20px;
+  position: relative;
+  padding: 25px;
+  background-color: rgb(25, 28, 35);
+}
+
+.sideBar {
+  width: 20%;
+  position: relative;
+  z-index: 1;
+  background-color: rgb(25, 28, 35);
+}
+
+.sideBarClosed{
+  display: none;
+}
+
+.burguer {
+  display: none;
+}
+
+.burguerIcon {
+  position: absolute;
+  display: flex;
+  top: 25px;
+  right: -50px;
+  cursor: pointer;
+}
+
+.burguerIcon > svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.burguerIconClose{
+  display: flex;
+}
+
+.burguerIconClose > svg {
+  width: 1.5em;
+  height: 1.5em;
+}
