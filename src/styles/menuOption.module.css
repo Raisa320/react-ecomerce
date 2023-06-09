@@ -1,0 +1,28 @@
+.optionContainer,
+.option {
+  display: flex;
+  /* padding: 0 15px; */
+  align-items: center;
+  cursor: pointer;
+}
+
+.optionContainer {
+  height: 50px;
+  border-left: 3px solid rgba(255, 255, 255, 0);
+  gap: 20px;
+  transition: 0.3s;
+}
+
+.option {
+  padding: 40px 15px 40px ;
+  gap: 15px;
+}
+
+.optionContainer:hover{
+    border-left: 3px solid rgb(64, 178, 132);
+}
+
+.optionText {
+  font-size: 17px;
+  color: rgb(177, 177, 177);
+}

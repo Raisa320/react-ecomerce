@@ -1,0 +1,17 @@
+.mainBrand {
+  padding: 0 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+}
