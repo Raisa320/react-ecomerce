@@ -6,9 +6,9 @@ interface boxProps {
 }
 
 interface dataProps {
-  username: string;
+  username?: string;
   email?: string;
-  password: string;
+  password?: string;
 }
 
 const Form = ({ children, data }: boxProps) => {
