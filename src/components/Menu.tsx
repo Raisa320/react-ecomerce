@@ -30,6 +30,14 @@ const Menu = ({ menuOpen, setMenuOpen }: menuProps) => {
             <MenuOption text={option.name}>
               {iconComponents[option.icon]}
             </MenuOption>
+            {option.subOptions &&
+              option.subOptions.map((subOption, subOptionId) => (
+                <div key={subOptionId}>
+                  <MenuOption text={subOption.name}>
+                    {iconComponents[subOption.icon]}
+                  </MenuOption>
+                </div>
+              ))}
           </div>
         ))}
       </div>
